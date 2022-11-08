@@ -1,0 +1,11 @@
+<%-include("partials/header")  %> 
+
+
+<h1>home</h1>
+<p><%= homemessage  %> </p>
+<% postts.forEach(function(post) {%> 
+
+<h1><%= post.title %> </h1>
+<p><%= post.compm %> </p>
+<% } )%> 
+<%-include("partials/footer")  %> 
